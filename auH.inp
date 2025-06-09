@@ -1,0 +1,8 @@
+! PBE RIJCOSX  def2-TZVP TIGHTSCF   
+#%pal nprocs 32 end 
+
+#%basis newGTO Fe "def2-TZVP" end
+#end
+#only the gas phase optimization of the FeIV-F triplet complex
+
+* xyzfile 0 1 geom.xyz
