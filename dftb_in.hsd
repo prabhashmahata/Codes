@@ -1,0 +1,26 @@
+Geometry = xyzFormat {
+<<< "geom.xyz"
+}
+
+Driver =  {}
+
+Hamiltonian = DFTB {
+  Scc = Yes
+  SlaterKosterFiles {
+    Au-Au="/home/zxx3058/software/dftb_parameters/auorg-1-1/Au-Au.skf"
+    Au-H="/home/zxx3058/software/dftb_parameters/auorg-1-1/Au-H.skf"
+    H-Au="/home/zxx3058/software/dftb_parameters/auorg-1-1/H-Au.skf"
+    H-H="/home/zxx3058/software/dftb_parameters/auorg-1-1/H-H.skf"
+  }
+  MaxAngularMomentum {
+    Au = "d"
+    H = "s"
+  }
+}
+
+Options {}
+
+
+ParserOptions {
+  ParserVersion = 12
+}
