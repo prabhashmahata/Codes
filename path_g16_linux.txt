@@ -1,0 +1,12 @@
+#Instruction to set the Gaussian(g16) path in linux environment 
+#open your .bash_profile , if .bash_profile is not present, you can create it yourself.
+vi ~/.bash_profile
+## path for g16
+export g16root="/home/zxx3058/software/"
+export GAUSS_SCRDIR=/home/zxx3058/software/gauss_scratch/
+export PATH="$GAUSS_EXEDIR:$PATH"
+source $g16root/g16/bsd/g16.profile
+# close the ~/.bash_profile and source the file
+source /.bash_profile
+
+# Enjoy your gaussian calculation in Linux
