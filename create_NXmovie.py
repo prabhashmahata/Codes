@@ -1,3 +1,4 @@
+# Create PES movies from Newton-X en.dat file, Change the name of the outputfile and as well as format, if you want different format. It is now .mp4 format.
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation, FFMpegWriter
