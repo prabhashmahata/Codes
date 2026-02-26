@@ -1,0 +1,56 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/.local/bin:$HOME/bin
+
+export PATH
+
+## Set the path for differnt software
+## path for molden
+##export PATH=$PATH:/home/zxx3058/software/molden6.9/bin
+
+## path for NewtonX
+##export NX=/home/zxx3058/software/NX-2.2-B09/bin
+export NX=/home/zxx3058/software/newtonx-cs/bin
+
+## path for dftb+
+export DFTBP=/home/zxx3058/software/dftbplus-24.1.x86_64-linux/bin
+#export DFTBP=/software/2025/dftbplus/dftbplus-24.1-openmpi-intel/dftbplus-24.1/bin
+#export DP_TOOLS=/software/2025/dftbplus/dftbplus-24.1-openmpi-intel/dftbplus-24.1/tools/dptools/bin
+#export DFTBP=/software/2025/dftbplus/dftbplus-24.1-openmpi-mkl-gcc-10.4.0/bin/
+export DP_TOOLS=/software/2025/dftbplus/dftbplus-24.1-openmpi-mkl-gcc-10.4.0/bin/
+## path for COLUMBUS interfaced with OpneMolcas binary
+export COLUMBUS=/home/zxx3058/software/bin_colOpencas/Columbus
+
+## path for MOLDEN 
+##export PATH=$PATH:/home/zxx3058/software/molden6.9/bin
+export PATH=$PATH:/home/zxx3058/software/molden6.9/bin
+
+##export ORCA=/software/sources/builds/orca/6.0.1/orca_6_0_1_linux_x86-64_shared_openmpi416_avx2/
+export ORCA=/software/orca/5.0.4/orca_5_0_4_linux_x86-64_openmpi411/
+
+## path for SHARC program
+export SHARC=/software/2025/sharc/sharc4/bin
+##export SHARC=/software/2025/sharc/sharc4.0/bin/
+
+## PATH FOR molpro
+export MOLPRO=/software/2025/molpro/molpro_2025.1/bin/molpro
+
+## path for OpenMolcas
+##export MOLCAS=/gpfs/software/2025/spack/opt/spack/linux-rhel8-x86_64/gcc-12.4.0/openmolcas-23.06-gjmyfti4plrb2yciogt6tbpabo7onezy/
+#export MOLCAS=/gpfs/software/2025/spack/opt/spack/linux-rhel8-x86_64/gcc-12.4.0/openmolcas-23.06-uzby2lziif3qm2lda2gvlsxqr2tvhx33/
+#export MOLCAS=/gpfs/software/2025/spack/opt/spack/linux-rhel8-x86_64/gcc-12.4.0/openmolcas-23.06-x6anhhentjmxi6cbf6cfsh7ooe7o2b2b/bin/
+export MOLCAS=/home/zxx3058/software/OpenMolcas/build
+
+
+##path for GAMESS
+export GAMESS=/home/zxx3058/software/gamesss
+
+##path for packmol
+export PATH=$PATH:/home/zxx3058/software/packmol
