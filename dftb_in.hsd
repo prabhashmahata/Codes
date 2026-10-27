@@ -1,6 +1,6 @@
 Geometry = xyzFormat {
 <<< "geom.xyz"
-}
+}           
 
 Driver =  {}
 
